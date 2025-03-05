@@ -1,6 +1,6 @@
 import requests
 import json
-pagina = "https://api.openweathermap.org/data/2.5/weather?q=Piedecuesta,co&APPID=4491ad6d8e5c821739cbd71c337ec5c2&units=metric"
+pagina = "https://api.openweathermap.org/data/2.5/weather?q=Piedecuesta,co&APPID=44ccd6fe4d5fe940989adbc892e28c5e&units=metric"
 page = requests.get(str(pagina))
 json_data = json.loads(page.text)
 print(json_data)
